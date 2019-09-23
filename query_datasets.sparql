@@ -1,0 +1,4 @@
+SELECT ?datagouvid ?item ?itemLabel WHERE {
+  ?item wdt:P6526 ?datagouvid.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". }
+}
