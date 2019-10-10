@@ -22,7 +22,7 @@ workflows:
             - update-and-publish
         triggers:
             - schedule:
-                cron: 10 10 * * 1
+                cron: 10 10 * * *
                 filters:
                     branches:
                         only:
